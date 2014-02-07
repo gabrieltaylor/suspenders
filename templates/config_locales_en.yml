@@ -9,3 +9,12 @@ en:
       default: '%a, %b %-d, %Y at %r'
       date: '%b %-d, %Y'
       short: '%B %d'
+  titles:
+    clearance:
+      users:
+        new: Sign up
+      passwords:
+        edit: Reset password
+        new: Reset password
+      sessions:
+        new: Sign in
