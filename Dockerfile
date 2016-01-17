@@ -11,6 +11,7 @@ RUN mkdir /myapp
 WORKDIR /tmp
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
+COPY suspenders.gemspec suspenders.gemspec
 RUN bundle install -j 4
 
 ADD . /myapp
